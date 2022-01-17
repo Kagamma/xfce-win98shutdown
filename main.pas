@@ -52,12 +52,12 @@ var
 begin
   if rbRestart.Checked then
   begin
-    RunCommand('/bin/xfce4-session-logout', ['--halt', '--fast'], S);
+    RunCommand('/bin/xfce4-session-logout', ['--reboot', '--fast'], S);
     Halt(0);
   end else
   if rbShutdown.Checked then
   begin
-    RunCommand('/bin/xfce4-session-logout', ['--reboot', '--fast'], S);
+    RunCommand('/bin/xfce4-session-logout', ['--halt', '--fast'], S);
     Halt(0);
   end;
 end;
