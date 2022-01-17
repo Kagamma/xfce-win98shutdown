@@ -1,0 +1,14 @@
+object Form2: TForm2
+  Left = 342
+  Height = 240
+  Top = 30
+  Width = 320
+  BorderStyle = bsNone
+  Caption = 'Form2'
+  Color = 9869722
+  FormStyle = fsStayOnTop
+  OnClick = FormClick
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  WindowState = wsFullScreen
+end
